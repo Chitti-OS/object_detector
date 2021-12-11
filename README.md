@@ -22,7 +22,7 @@ Create a object `ext` of `ExtractImages` class
 or you can create object specifing Output path
 
 ```python
->>> ext = ExtractImages(path=0,Output=MyOutput)
+>>> ext = ExtractImages(path=0,op=MyOutput)
 ```
 By default Output path is <b>Output</b>
 
