@@ -80,24 +80,30 @@ To read text on the image add following code
 >>> text = extract_text()
 ```
 
-## Detect objects from a video or camera
+## Show or Write objects from a video or camera
+
+Import LiveDetect class and make a object of this class.
 
 ```python
 l = LiveDetect(weights="cars.weights", cfg="yolov4-custom.cfg", classes=['licence'])
 ```
 
+Save images when object detect on video.
 ```python
 l.write_from_video(path="Traffic.mp4")
 ```
 
+Show images when object detect on video.
 ```python
 l.show_from_video(path="Traffic.mp4")
 ```
 
+Save images when object detect on the dir.
 ```python
 l.write_from_dir(path="Traffic.mp4")
 ```
 
+Show images when object detect on the dir.
 ```python
 l.show_from_dir(path="Traffic.mp4")
 ```
