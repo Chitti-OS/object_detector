@@ -1,0 +1,6 @@
+Source: object-detector-server
+Version: 0.2
+Maintainer: ujjwal
+Package: object-detector-server
+Architecture: all
+Description: object-detector-server 
